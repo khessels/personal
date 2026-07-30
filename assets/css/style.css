@@ -1,0 +1,413 @@
+/* ==========================================================
+   Kees Hessels Engineering
+   Global Design System
+   ========================================================== */
+
+:root{
+
+    --primary:#2563EB;
+    --primary-light:#3B82F6;
+    --primary-dark:#1D4ED8;
+
+    --background:#07111F;
+    --surface:#0D1728;
+    --surface-light:#132033;
+
+    --white:#FFFFFF;
+    --text:#E5E7EB;
+    --muted:#94A3B8;
+
+    --border:rgba(255,255,255,.08);
+
+    --radius:18px;
+
+    --shadow:
+        0 12px 35px rgba(0,0,0,.35);
+
+    --transition:.35s ease;
+
+    --max-width:1280px;
+
+}
+
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+html{
+
+    scroll-behavior:smooth;
+
+}
+
+body{
+
+    background:var(--background);
+
+    color:var(--text);
+
+    font-family:"Inter",sans-serif;
+
+    line-height:1.75;
+
+    overflow-x:hidden;
+
+}
+
+h1,h2,h3,h4,h5{
+
+    font-family:"Space Grotesk",sans-serif;
+
+    font-weight:700;
+
+    color:white;
+
+}
+
+a{
+
+    color:var(--primary-light);
+
+    text-decoration:none;
+
+    transition:var(--transition);
+
+}
+
+a:hover{
+
+    color:white;
+
+}
+
+img{
+
+    max-width:100%;
+
+    display:block;
+
+}
+
+.section{
+
+    padding:110px 0;
+
+}
+
+.container{
+
+    max-width:var(--max-width);
+
+}
+
+/* ==========================================================
+   NAVBAR
+   ========================================================== */
+
+.navbar{
+
+    background:rgba(7,17,31,.82);
+
+    backdrop-filter:blur(18px);
+
+    border-bottom:1px solid rgba(255,255,255,.05);
+
+    transition:.35s;
+
+}
+
+.navbar-scrolled{
+
+    background:#07111F;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.45);
+
+}
+
+.nav-link{
+
+    color:#D1D5DB;
+
+    font-weight:500;
+
+    margin-left:12px;
+
+}
+
+.nav-link:hover,
+
+.nav-link.active{
+
+    color:white;
+
+}
+
+.navbar-brand{
+
+    color:white;
+
+    font-weight:700;
+
+    font-size:1.35rem;
+
+}
+
+.brand-subtitle{
+
+    display:block;
+
+    font-size:.72rem;
+
+    color:var(--muted);
+
+}
+
+/* ==========================================================
+   HERO
+   ========================================================== */
+
+.hero{
+
+    padding-top:180px;
+
+    padding-bottom:120px;
+
+    background:
+
+        url("../images/hero-bg.svg")
+
+        center center/cover;
+
+}
+
+.hero h1{
+
+    font-size:4rem;
+
+    line-height:1.05;
+
+    margin-bottom:25px;
+
+}
+
+.hero-subtitle{
+
+    display:inline-block;
+
+    color:var(--primary-light);
+
+    letter-spacing:2px;
+
+    text-transform:uppercase;
+
+    margin-bottom:20px;
+
+}
+
+.hero .lead{
+
+    max-width:720px;
+
+    color:#CBD5E1;
+
+    font-size:1.25rem;
+
+}
+
+.hero-image{
+
+    border-radius:28px;
+
+    box-shadow:
+
+        0 40px 80px rgba(0,0,0,.45);
+
+}
+
+/* ==========================================================
+   BUTTONS
+   ========================================================== */
+
+.btn{
+
+    border-radius:12px;
+
+    padding:14px 30px;
+
+    font-weight:600;
+
+}
+
+.btn-primary{
+
+    background:var(--primary);
+
+    border:none;
+
+}
+
+.btn-primary:hover{
+
+    background:var(--primary-dark);
+
+    transform:translateY(-3px);
+
+}
+
+.btn-outline-primary{
+
+    border:2px solid var(--primary);
+
+    color:white;
+
+}
+
+.btn-outline-primary:hover{
+
+    background:var(--primary);
+
+}
+
+/* ==========================================================
+   GLASS CARDS
+   ========================================================== */
+
+.expertise-card,
+
+.project-card,
+
+.stat-card{
+
+    background:rgba(255,255,255,.03);
+
+    border:1px solid var(--border);
+
+    border-radius:var(--radius);
+
+    backdrop-filter:blur(14px);
+
+    box-shadow:var(--shadow);
+
+    transition:var(--transition);
+
+}
+
+.expertise-card{
+
+    padding:40px;
+
+    height:100%;
+
+}
+
+.expertise-card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:rgba(37,99,235,.5);
+
+}
+
+.expertise-card i{
+
+    font-size:42px;
+
+    color:var(--primary-light);
+
+    margin-bottom:22px;
+
+}
+
+/* ==========================================================
+   FOOTER
+   ========================================================== */
+
+.footer{
+
+    padding:90px 0;
+
+    background:#050D18;
+
+    border-top:1px solid rgba(255,255,255,.06);
+
+}
+
+.footer h5{
+
+    margin-bottom:20px;
+
+}
+
+.footer-links{
+
+    list-style:none;
+
+    padding:0;
+
+}
+
+.footer-links li{
+
+    margin-bottom:10px;
+
+}
+
+.footer-links a{
+
+    color:var(--muted);
+
+}
+
+.footer-links a:hover{
+
+    color:white;
+
+}
+
+.footer hr{
+
+    margin:45px 0;
+
+    border-color:rgba(255,255,255,.08);
+
+}
+
+/* ==========================================================
+   RESPONSIVE
+   ========================================================== */
+
+@media(max-width:992px){
+
+.hero{
+
+    text-align:center;
+
+}
+
+.hero h1{
+
+    font-size:2.8rem;
+
+}
+
+.section{
+
+    padding:80px 0;
+
+}
+
+}
+
+@media(max-width:576px){
+
+.hero h1{
+
+    font-size:2.2rem;
+
+}
+
+}

@@ -1,0 +1,102 @@
+/* ==========================================================
+   Animations
+   ========================================================== */
+
+.fade-up{
+
+    opacity:0;
+
+    transform:translateY(40px);
+
+    transition:all .8s cubic-bezier(.22,.61,.36,1);
+
+}
+
+.fade-up.show{
+
+    opacity:1;
+
+    transform:translateY(0);
+
+}
+
+.fade-left{
+
+    opacity:0;
+
+    transform:translateX(-60px);
+
+    transition:all .8s;
+
+}
+
+.fade-left.show{
+
+    opacity:1;
+
+    transform:none;
+
+}
+
+.fade-right{
+
+    opacity:0;
+
+    transform:translateX(60px);
+
+    transition:all .8s;
+
+}
+
+.fade-right.show{
+
+    opacity:1;
+
+    transform:none;
+
+}
+
+.zoom{
+
+    opacity:0;
+
+    transform:scale(.92);
+
+    transition:.8s;
+
+}
+
+.zoom.show{
+
+    opacity:1;
+
+    transform:scale(1);
+
+}
+
+.float{
+
+    animation:float 5s ease-in-out infinite;
+
+}
+
+@keyframes float{
+
+0%{transform:translateY(0);}
+50%{transform:translateY(-12px);}
+100%{transform:translateY(0);}
+
+}
+
+.rotate{
+
+    animation:rotate 20s linear infinite;
+
+}
+
+@keyframes rotate{
+
+from{transform:rotate(0);}
+to{transform:rotate(360deg);}
+
+}

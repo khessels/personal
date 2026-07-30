@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+viewBox="0 0 600 600">
+
+<rect width="600"
+height="600"
+fill="#07111F"/>
+
+<circle cx="300"
+cy="300"
+r="120"
+fill="#2563EB"/>
+
+<circle cx="140"
+cy="180"
+r="35"
+fill="#60A5FA"/>
+
+<circle cx="460"
+cy="180"
+r="35"
+fill="#60A5FA"/>
+
+<circle cx="140"
+cy="430"
+r="35"
+fill="#60A5FA"/>
+
+<circle cx="460"
+cy="430"
+r="35"
+fill="#60A5FA"/>
+
+<line x1="300"
+y1="300"
+x2="140"
+y2="180"
+stroke="white"
+stroke-width="5"/>
+
+<line x1="300"
+y1="300"
+x2="460"
+y2="180"
+stroke="white"
+stroke-width="5"/>
+
+<line x1="300"
+y1="300"
+x2="140"
+y2="430"
+stroke="white"
+stroke-width="5"/>
+
+<line x1="300"
+y1="300"
+x2="460"
+y2="430"
+stroke="white"
+stroke-width="5"/>
+
+</svg>

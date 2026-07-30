@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 420 80">
+
+<circle cx="40"
+        cy="40"
+        r="26"
+        fill="#2563EB"/>
+
+<text x="40"
+      y="49"
+      text-anchor="middle"
+      font-family="Inter"
+      font-size="24"
+      font-weight="700"
+      fill="white">
+
+KH
+
+</text>
+
+<text x="85"
+      y="36"
+      font-family="Space Grotesk"
+      font-size="28"
+      font-weight="700"
+      fill="#07111F">
+
+Kees Hessels
+
+</text>
+
+<text x="85"
+      y="58"
+      font-family="Inter"
+      font-size="13"
+      fill="#6B7280">
+
+Technology Architect
+
+</text>
+
+</svg>

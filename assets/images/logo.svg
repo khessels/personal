@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 420 80">
+
+<defs>
+
+<linearGradient id="g"
+                x1="0%"
+                y1="0%"
+                x2="100%"
+                y2="0%">
+
+<stop offset="0%" stop-color="#2563EB"/>
+
+<stop offset="100%" stop-color="#60A5FA"/>
+
+</linearGradient>
+
+</defs>
+
+<circle cx="40"
+        cy="40"
+        r="26"
+        fill="url(#g)"/>
+
+<text x="40"
+      y="49"
+      text-anchor="middle"
+      font-family="Inter"
+      font-size="24"
+      font-weight="700"
+      fill="white">
+
+KH
+
+</text>
+
+<text x="85"
+      y="36"
+      font-family="Space Grotesk"
+      font-size="28"
+      font-weight="700"
+      fill="#FFFFFF">
+
+Kees Hessels
+
+</text>
+
+<text x="85"
+      y="58"
+      font-family="Inter"
+      font-size="13"
+      fill="#9CA3AF">
+
+Technology Architect
+
+</text>
+
+</svg>

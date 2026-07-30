@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+viewBox="0 0 600 600">
+
+<rect width="600"
+height="600"
+fill="#07111F"/>
+
+<rect x="70"
+y="90"
+width="460"
+height="420"
+rx="24"
+fill="#12233A"/>
+
+<circle cx="120"
+cy="130"
+r="10"
+fill="#2563EB"/>
+
+<circle cx="150"
+cy="130"
+r="10"
+fill="#60A5FA"/>
+
+<circle cx="180"
+cy="130"
+r="10"
+fill="#93C5FD"/>
+
+<text x="120"
+y="220"
+fill="#60A5FA"
+font-size="28"
+font-family="monospace">
+
+&lt;Architecture/&gt;
+
+</text>
+
+</svg>

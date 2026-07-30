@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1400 180">
+
+<defs>
+
+<marker id="arrow"
+        markerWidth="10"
+        markerHeight="10"
+        refX="5"
+        refY="5"
+        orient="auto">
+
+<path d="M0 0L10 5L0 10Z"
+      fill="#2563EB"/>
+
+</marker>
+
+</defs>
+
+<line x1="130"
+      y1="90"
+      x2="1270"
+      y2="90"
+      stroke="#2563EB"
+      stroke-width="3"
+      marker-end="url(#arrow)"/>
+
+<g fill="#2563EB">
+
+<circle cx="130" cy="90" r="18"/>
+<circle cx="370" cy="90" r="18"/>
+<circle cx="610" cy="90" r="18"/>
+<circle cx="850" cy="90" r="18"/>
+<circle cx="1090" cy="90" r="18"/>
+<circle cx="1270" cy="90" r="18"/>
+
+</g>
+
+<g font-family="Inter"
+   font-size="20"
+   fill="#FFFFFF"
+   text-anchor="middle">
+
+<text x="130" y="145">Concept</text>
+
+<text x="370" y="145">Architecture</text>
+
+<text x="610" y="145">Prototype</text>
+
+<text x="850" y="145">Testing</text>
+
+<text x="1090" y="145">Production</text>
+
+<text x="1270" y="145">Support</text>
+
+</g>
+
+</svg>

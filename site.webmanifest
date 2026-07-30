@@ -1,0 +1,16 @@
+{
+  "name": "Kees Hessels Engineering Consultant",
+  "short_name": "Kees Hessels",
+  "description": "Software architecture, electronics, embedded systems and industrial IoT consulting.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#020617",
+  "theme_color": "#020617",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
