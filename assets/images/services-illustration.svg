@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200"
+     height="800"
+     viewBox="0 0 1200 800">
+
+<defs>
+
+<linearGradient id="bg"
+x1="0%"
+y1="0%"
+x2="100%"
+y2="100%">
+
+<stop offset="0%" stop-color="#07111f"/>
+
+<stop offset="100%" stop-color="#1d4ed8"/>
+
+</linearGradient>
+
+<linearGradient id="glass"
+x1="0%"
+y1="0%"
+x2="0%"
+y2="100%">
+
+<stop offset="0%" stop-color="#ffffff"/>
+
+<stop offset="100%" stop-color="#dbeafe"/>
+
+</linearGradient>
+
+<linearGradient id="pcb"
+x1="0%"
+y1="0%"
+x2="100%"
+y2="100%">
+
+<stop offset="0%" stop-color="#2563eb"/>
+
+<stop offset="100%" stop-color="#60a5fa"/>
+
+</linearGradient>
+
+</defs>
+
+<rect width="1200"
+height="800"
+fill="url(#bg)"/>
+
+<!-- Decorative circuit traces -->
+
+<g stroke="#60a5fa"
+stroke-width="2"
+opacity="0.10"
+fill="none">
+
+<path d="M40 120 H240 V220 H520"/>
+
+<path d="M900 90 V240 H1100"/>
+
+<path d="M1020 520 H760 V700 H520"/>
+
+<path d="M120 700 H420"/>
+
+</g>
+
+<!-- Laptop -->
+
+<g transform="translate(180 180)">
+
+<rect
+x="0"
+y="0"
+width="420"
+height="260"
+rx="18"
+fill="url(#glass)"/>
+
+<rect
+x="20"
+y="20"
+width="380"
+height="220"
+rx="8"
+fill="#0f172a"/>
+
+<!-- code -->
+
+<g
+fill="#60a5fa"
+font-size="16"
+font-family="monospace">
+
+<text x="40" y="60">&lt;system&gt;</text>
+
+<text x="40" y="95">initialize();</text>
+
+<text x="40" y="130">connectIoT();</text>
+
+<text x="40" y="165">runAI();</text>
+
+<text x="40" y="200">deploy();</text>
+
+</g>
+
+<rect
+x="-25"
+y="255"
+width="470"
+height="24"
+rx="12"
+fill="#cbd5e1"/>
+
+</g>
+
+<!-- PCB -->
+
+<g transform="translate(700 140)">
+
+<rect
+width="320"
+height="220"
+rx="16"
+fill="url(#pcb)"/>
+
+<g
+stroke="#ffffff"
+stroke-width="4"
+fill="none">
+
+<path d="M30 40 H150 V100 H280"/>
+
+<path d="M50 170 H280"/>
+
+<path d="M80 20 V190"/>
+
+<path d="M170 20 V190"/>
+
+<path d="M260 20 V190"/>
+
+</g>
+
+<g fill="#ffffff">
+
+<circle cx="30" cy="40" r="7"/>
+
+<circle cx="150" cy="40" r="7"/>
+
+<circle cx="150" cy="100" r="7"/>
+
+<circle cx="280" cy="100" r="7"/>
+
+</g>
+
+</g>
+
+<!-- STM32 -->
+
+<g transform="translate(760 420)">
+
+<rect
+width="150"
+height="150"
+rx="10"
+fill="#0f172a"/>
+
+<text
+x="75"
+y="82"
+fill="white"
+font-size="26"
+font-family="Inter"
+text-anchor="middle">
+
+STM32
+
+</text>
+
+</g>
+
+<!-- Raspberry Pi -->
+
+<g transform="translate(950 430)">
+
+<rect
+width="150"
+height="130"
+rx="10"
+fill="#16a34a"/>
+
+<circle cx="25" cy="25" r="8" fill="#fbbf24"/>
+
+<circle cx="125" cy="25" r="8" fill="#fbbf24"/>
+
+<rect
+x="30"
+y="50"
+width="90"
+height="40"
+fill="#14532d"/>
+
+<text
+x="75"
+y="116"
+text-anchor="middle"
+font-family="Inter"
+font-size="18"
+fill="white">
+
+CM4
+
+</text>
+
+</g>
+
+<!-- Cloud -->
+
+<g transform="translate(610 70)">
+
+<ellipse
+cx="0"
+cy="40"
+rx="90"
+ry="34"
+fill="white"/>
+
+<ellipse
+cx="-45"
+cy="52"
+rx="45"
+ry="28"
+fill="white"/>
+
+<ellipse
+cx="45"
+cy="52"
+rx="45"
+ry="28"
+fill="white"/>
+
+<text
+x="0"
+y="48"
+text-anchor="middle"
+font-size="24"
+font-family="Inter"
+fill="#2563eb"
+font-weight="700">
+
+Cloud
+
+</text>
+
+</g>
+
+<!-- AI network -->
+
+<g
+fill="#60a5fa">
+
+<circle cx="600" cy="420" r="10"/>
+
+<circle cx="660" cy="470" r="10"/>
+
+<circle cx="540" cy="500" r="10"/>
+
+<circle cx="640" cy="560" r="10"/>
+
+<circle cx="560" cy="590" r="10"/>
+
+</g>
+
+<g
+stroke="#60a5fa"
+stroke-width="3">
+
+<line x1="600" y1="420" x2="660" y2="470"/>
+
+<line x1="600" y1="420" x2="540" y2="500"/>
+
+<line x1="540" y1="500" x2="640" y2="560"/>
+
+<line x1="660" y1="470" x2="640" y2="560"/>
+
+<line x1="560" y1="590" x2="640" y2="560"/>
+
+</g>
+
+<!-- Oscilloscope waveform -->
+
+<polyline
+points="120,640 180,640 220,580 260,700 320,540 380,640 450,620 520,640"
+fill="none"
+stroke="#38bdf8"
+stroke-width="5"/>
+
+<!-- Gear -->
+
+<g transform="translate(930 650)">
+
+<circle
+r="46"
+fill="#2563eb"/>
+
+<circle
+r="18"
+fill="white"/>
+
+</g>
+
+<!-- Title -->
+
+<text
+x="600"
+y="760"
+text-anchor="middle"
+font-size="38"
+font-family="Inter"
+font-weight="700"
+fill="white">
+
+Engineering • Electronics • Embedded Systems • IoT • AI
+
+</text>
+
+</svg>
