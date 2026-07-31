@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 
 <meta name="viewport"
-      content="width=device-width, initial-scale=1">
+      content="width=device-width, initial-scale=1.0">
 
 <title>
 
@@ -15,9 +15,19 @@ About | Kees Hessels
 </title>
 
 <meta name="description"
-      content="Learn more about Kees Hessels, Technology Architect, Software & Hardware Architect, Electronics Engineer and Product Development specialist.">
+      content="Learn more about Kees Hessels, Technology Architect, Electronics Engineer and Product Development specialist.">
 
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap"
+<link rel="icon"
+      href="assets/icons/favicon.ico">
+
+<link rel="preconnect"
+      href="https://fonts.googleapis.com">
+
+<link rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
       rel="stylesheet">
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
@@ -26,30 +36,21 @@ About | Kees Hessels
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
       rel="stylesheet">
 
-<link href="assets/css/style.css"
-      rel="stylesheet">
+<link rel="stylesheet"
+      href="assets/css/style.css">
+
+<link rel="stylesheet"
+      href="assets/css/animations.css">
 
 </head>
 
 <body>
 
-<!-- ========================================================= -->
-<!-- Navigation -->
-<!-- ========================================================= -->
-
 <div id="navbar"></div>
 
-<!-- ========================================================= -->
-<!-- Hero -->
-<!-- ========================================================= -->
+<section class="hero hero-small">
 
-<header class="hero">
-
-<div class="container">
-
-<div class="row align-items-center">
-
-<div class="col-lg-7">
+<div class="container text-center">
 
 <span class="hero-subtitle">
 
@@ -59,98 +60,77 @@ About Me
 
 <h1>
 
-Technology Architect
+Technology Without Boundaries
 
 </h1>
 
-<h2>
-
-Engineering Solutions Through Experience
-
-</h2>
-
 <p class="lead">
 
-For more than three decades I have designed software,
+More than three decades designing software,
 electronics,
 embedded systems,
-enterprise platforms,
-and connected products for organizations ranging from startups to international companies.
+industrial automation
+and complete technology solutions.
 
 </p>
 
 </div>
 
-<div class="col-lg-5 text-center">
-
-<img src="assets/images/portrait.png"
-     class="hero-image img-fluid"
-     alt="Kees Hessels">
-
-</div>
-
-</div>
-
-</div>
-
-</header>
-
-<!-- ========================================================= -->
-<!-- Biography -->
-<!-- ========================================================= -->
+</section>
+<!-- =====================================================
+     MY STORY
+====================================================== -->
 
 <section class="section">
 
 <div class="container">
 
-<div class="row">
+<div class="row align-items-center">
 
-<div class="col-lg-10 offset-lg-1">
+<div class="col-lg-5">
+
+<img src="assets/images/profile.webp"
+     class="img-fluid rounded-4 shadow-lg"
+     alt="Kees Hessels">
+
+</div>
+
+<div class="col-lg-7">
+
+<span class="section-subtitle">
+
+My Journey
+
+</span>
 
 <h2>
 
-Who I Am
+Engineering Across Disciplines
 
 </h2>
 
 <p>
 
-My professional career combines software engineering,
-electronics engineering,
-embedded systems,
-cloud technologies,
-product management,
-and technical leadership.
-
-Rather than specializing in only one discipline,
-I have always enjoyed solving problems that require expertise across hardware,
-software,
-communications,
-manufacturing,
-and business strategy.
+My career has always been driven by solving complex technical problems rather than
+staying within the boundaries of a single engineering discipline. Over the years,
+I have designed enterprise software, embedded systems, electronic hardware,
+industrial automation platforms and complete commercial products.
 
 </p>
 
 <p>
 
-Throughout my career I have designed enterprise software,
-developed embedded hardware,
-managed engineering teams,
-created connected IoT platforms,
-built commercial products,
-and guided projects from the initial concept through production deployment.
+This multidisciplinary background allows me to bridge the gap between software,
+electronics, firmware, manufacturing and business objectives—creating integrated
+solutions that are technically sound, practical to manufacture and aligned with
+real-world operational needs.
 
 </p>
 
 <p>
 
-My approach combines technical excellence,
-practical engineering,
-clear communication,
-and long-term thinking.
-I enjoy transforming complex ideas into robust,
-maintainable,
-production-ready solutions.
+I enjoy working on projects where architecture matters, where innovation creates
+competitive advantage, and where ideas evolve into reliable production systems.
 
 </p>
 
@@ -161,47 +141,55 @@ production-ready solutions.
 </div>
 
 </section>
-
-<!-- ========================================================= -->
-<!-- Engineering Philosophy -->
-<!-- ========================================================= -->
+<!-- =====================================================
+     CORE VALUES
+====================================================== -->
 
 <section class="section bg-light">
 
 <div class="container">
 
-<div class="row">
+<div class="section-header">
 
-<div class="col text-center">
+<span class="section-subtitle">
+
+Engineering Philosophy
+
+</span>
 
 <h2>
 
-Engineering Philosophy
+Principles That Guide Every Project
 
 </h2>
 
 </div>
 
-</div>
-
-<div class="row g-4 mt-4">
+<div class="row g-4">
 
 <div class="col-lg-4">
 
-<div class="expertise-card">
+<div class="card h-100">
 
-<i class="fa-solid fa-lightbulb"></i>
+<div class="card-body">
+
+<div class="card-icon">
+
+<i class="fa-solid fa-compass-drafting"></i>
+
+</div>
 
 <h3>
 
-Innovation
+Architecture First
 
 </h3>
 
 <p>
 
-Technology should solve real business problems,
-not create unnecessary complexity.
+A well-designed architecture reduces technical debt,
+improves maintainability and creates a strong foundation
+for long-term success.
 
 </p>
 
@@ -209,23 +197,31 @@ not create unnecessary complexity.
 
 </div>
 
+</div>
+
 <div class="col-lg-4">
 
-<div class="expertise-card">
+<div class="card h-100">
 
-<i class="fa-solid fa-gears"></i>
+<div class="card-body">
+
+<div class="card-icon">
+
+<i class="fa-solid fa-layer-group"></i>
+
+</div>
 
 <h3>
 
-Engineering Excellence
+Systems Thinking
 
 </h3>
 
 <p>
 
-Design systems that remain maintainable,
-scalable,
-and reliable for years.
+Software, electronics, mechanics and manufacturing
+should be engineered together rather than treated
+as isolated disciplines.
 
 </p>
 
@@ -233,25 +229,34 @@ and reliable for years.
 
 </div>
 
+</div>
+
 <div class="col-lg-4">
 
-<div class="expertise-card">
+<div class="card h-100">
 
-<i class="fa-solid fa-people-group"></i>
+<div class="card-body">
+
+<div class="card-icon">
+
+<i class="fa-solid fa-award"></i>
+
+</div>
 
 <h3>
 
-Leadership
+Quality & Reliability
 
 </h3>
 
 <p>
 
-Successful products are created by empowered teams,
-clear architecture,
-and effective communication.
+The best products are not only innovative—they are
+reliable, maintainable and built to perform over time.
 
 </p>
+
+</div>
 
 </div>
 
@@ -262,74 +267,77 @@ and effective communication.
 </div>
 
 </section>
-
-<!-- ========================================================= -->
-<!-- Core Values -->
-<!-- ========================================================= -->
+<!-- =====================================================
+     EXPERIENCE SNAPSHOT
+====================================================== -->
 
 <section class="section">
 
 <div class="container">
 
-<div class="row">
+<div class="section-header">
 
-<div class="col-lg-6">
+<span class="section-subtitle">
+
+Professional Experience
+
+</span>
 
 <h2>
 
-Core Values
+Areas of Expertise
 
 </h2>
-
-<ul class="service-list">
-
-<li>Integrity</li>
-
-<li>Technical Excellence</li>
-
-<li>Innovation</li>
-
-<li>Continuous Learning</li>
-
-<li>Collaboration</li>
-
-<li>Customer Focus</li>
-
-<li>Long-Term Thinking</li>
-
-<li>Quality Engineering</li>
-
-</ul>
 
 </div>
 
-<div class="col-lg-6">
+<div class="row g-4">
 
-<h2>
+<div class="col-md-6 col-lg-3">
 
-Professional Interests
+<div class="stat">
 
-</h2>
+<h2>30+</h2>
 
-<ul class="service-list">
+<p>Years of Experience</p>
 
-<li>Software Architecture</li>
+</div>
 
-<li>Electronics Design</li>
+</div>
 
-<li>Machine Vision</li>
+<div class="col-md-6 col-lg-3">
 
-<li>Artificial Intelligence</li>
+<div class="stat">
 
-<li>Industrial Automation</li>
+<h2>100+</h2>
 
-<li>PCB Manufacturing</li>
+<p>Technology Projects</p>
 
-<li>Embedded Linux</li>
+</div>
 
-<li>Product Innovation</li>
+</div>
 
-</ul>
+<div class="col-md-6 col-lg-3">
+
+<div class="stat">
+
+<h2>Software</h2>
+
+<p>Enterprise Platforms & Cloud</p>
+
+</div>
+
+</div>
+
+<div class="col-md-6 col-lg-3">
+
+<div class="stat">
+
+<h2>Hardware</h2>
+
+<p>Electronics & Embedded Systems</p>
+
+</div>
 
 </div>
 
@@ -338,37 +346,42 @@ Professional Interests
 </div>
 
 </section>
+<!-- =====================================================
+     CALL TO ACTION
+====================================================== -->
 
-<!-- ========================================================= -->
-<!-- CTA -->
-<!-- ========================================================= -->
+<section class="section bg-light">
 
-<section class="cta">
+<div class="container">
 
-<div class="container text-center">
+<div class="card">
+
+<div class="card-body text-center">
 
 <h2>
 
-Let's Create Something Exceptional
+Interested in Working Together?
 
 </h2>
 
-<p>
+<p class="mt-4 mb-4">
 
-I'm always interested in discussing innovative technology,
-challenging engineering projects,
-and opportunities where architecture,
-electronics,
-and software come together.
+I enjoy collaborating with startups, established companies,
+manufacturers and engineering teams to transform innovative
+ideas into successful products.
 
 </p>
 
 <a href="contact.html"
-   class="btn btn-primary btn-lg">
+class="btn btn-primary btn-lg">
 
-Contact Me
+Let's Talk
 
 </a>
+
+</div>
+
+</div>
 
 </div>
 
@@ -376,11 +389,10 @@ Contact Me
 
 <div id="footer"></div>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
-
 <script src="assets/js/include.js"></script>
-
 <script src="assets/js/main.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
