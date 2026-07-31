@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1920 1080"
+     preserveAspectRatio="xMidYMid slice">
+
+    <defs>
+
+        <linearGradient id="bg"
+                        x1="0%"
+                        y1="0%"
+                        x2="100%"
+                        y2="100%">
+
+            <stop offset="0%" stop-color="#07111f"/>
+            <stop offset="100%" stop-color="#0b1d35"/>
+
+        </linearGradient>
+
+        <filter id="glow">
+
+            <feGaussianBlur stdDeviation="3"
+                            result="coloredBlur"/>
+
+            <feMerge>
+
+                <feMergeNode in="coloredBlur"/>
+
+                <feMergeNode in="SourceGraphic"/>
+
+            </feMerge>
+
+        </filter>
+
+    </defs>
+
+    <rect width="1920"
+          height="1080"
+          fill="url(#bg)"/>
+
+    <!-- PCB traces -->
+
+    <g stroke="#3b82f6"
+       stroke-width="2"
+       opacity="0.08"
+       fill="none"
+       filter="url(#glow)">
+
+        <path d="M120 180 H420 V300 H760"/>
+
+        <path d="M180 600 H520 V460 H880"/>
+
+        <path d="M960 240 H1450 V360 H1750"/>
+
+        <path d="M1120 760 H1680 V920"/>
+
+        <path d="M220 940 H760 V760 H1100"/>
+
+        <path d="M850 520 H1450"/>
+
+    </g>
+
+    <!-- Nodes -->
+
+    <g fill="#60a5fa"
+       opacity="0.15">
+
+        <circle cx="120" cy="180" r="6"/>
+        <circle cx="420" cy="180" r="6"/>
+        <circle cx="420" cy="300" r="6"/>
+        <circle cx="760" cy="300" r="6"/>
+
+        <circle cx="180" cy="600" r="6"/>
+        <circle cx="520" cy="600" r="6"/>
+        <circle cx="520" cy="460" r="6"/>
+        <circle cx="880" cy="460" r="6"/>
+
+        <circle cx="960" cy="240" r="6"/>
+        <circle cx="1450" cy="240" r="6"/>
+        <circle cx="1450" cy="360" r="6"/>
+        <circle cx="1750" cy="360" r="6"/>
+
+        <circle cx="1120" cy="760" r="6"/>
+        <circle cx="1680" cy="760" r="6"/>
+        <circle cx="1680" cy="920" r="6"/>
+
+    </g>
+
+    <!-- Hexagons -->
+
+    <g stroke="#3b82f6"
+       stroke-width="2"
+       fill="none"
+       opacity="0.06">
+
+        <polygon points="300,480 330,462 360,480 360,516 330,534 300,516"/>
+
+        <polygon points="860,720 890,702 920,720 920,756 890,774 860,756"/>
+
+        <polygon points="1520,180 1550,162 1580,180 1580,216 1550,234 1520,216"/>
+
+        <polygon points="1500,820 1530,802 1560,820 1560,856 1530,874 1500,856"/>
+
+    </g>
+
+</svg>

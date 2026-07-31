@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1400"
+     height="220"
+     viewBox="0 0 1400 220">
+
+<style>
+
+.title{
+font-family:Inter,Arial,sans-serif;
+font-size:18px;
+font-weight:600;
+fill:#0f172a;
+}
+
+.line{
+stroke:#3b82f6;
+stroke-width:5;
+stroke-linecap:round;
+}
+
+.node{
+fill:#ffffff;
+stroke:#2563eb;
+stroke-width:4;
+}
+
+.icon{
+fill:#2563eb;
+}
+
+</style>
+
+<line class="line"
+      x1="120"
+      y1="110"
+      x2="1280"
+      y2="110"/>
+
+<!-- ================================================= -->
+
+<g transform="translate(120,110)">
+
+<circle class="node"
+r="42"/>
+
+<path class="icon"
+d="M-12 12 L0 -20 L12 12 Z"/>
+
+<text class="title"
+x="0"
+y="78"
+text-anchor="middle">
+
+Idea
+
+</text>
+
+</g>
+
+<!-- ================================================= -->
+
+<g transform="translate(320,110)">
+
+<circle class="node"
+r="42"/>
+
+<rect class="icon"
+x="-16"
+y="-16"
+width="32"
+height="32"
+rx="3"/>
+
+<text class="title"
+x="0"
+y="78"
+text-anchor="middle">
+
+Architecture
+
+</text>
+
+</g>
+
+<!-- ================================================= -->
+
+<g transform="translate(520,110)">
+
+<circle class="node"
+r="42"/>
+
+<rect class="icon"
+x="-14"
+y="-14"
+width="28"
+height="28"/>
+
+<circle fill="white"
+cx="-8"
+cy="-8"
+r="2"/>
+
+<circle fill="white"
+cx="8"
+cy="-8"
+r="2"/>
+
+<circle fill="white"
+cx="-8"
+cy="8"
+r="2"/>
+
+<circle fill="white"
+cx="8"
+cy="8"
+r="2"/>
+
+<text class="title"
+x="0"
+y="78"
+text-anchor="middle">
+
+Electronics
+
+</text>
+
+</g>
+
+<!-- ================================================= -->
+
+<g transform="translate(720,110)">
+
+<circle class="node"
+r="42"/>
+
+<path class="icon"
+d="M-16 -16 H16 V16 H-16Z"/>
+
+<path stroke="white"
+stroke-width="2"
+fill="none"
+d="M-8 -8 L8 8 M8 -8 L-8 8"/>
+
+<text class="title"
+x="0"
+y="78"
+text-anchor="middle">
+
+Software
+
+</text>
+
+</g>
+
+<!-- ================================================= -->
+
+<g transform="translate(920,110)">
+
+<circle class="node"
+r="42"/>
+
+<path class="icon"
+d="M-12 -16 H12 V16 H-12Z"/>
+
+<path stroke="white"
+stroke-width="2"
+d="M-8 0 H8"/>
+
+<text class="title"
+x="0"
+y="78"
+text-anchor="middle">
+
+Prototype
+
+</text>
+
+</g>
+
+<!-- ================================================= -->
+
+<g transform="translate(1120,110)">
+
+<circle class="node"
+r="42"/>
+
+<path class="icon"
+d="M-10 0 L-2 10 L12 -12"/>
+
+<text class="title"
+x="0"
+y="78"
+text-anchor="middle">
+
+Testing
+
+</text>
+
+</g>
+
+<!-- ================================================= -->
+
+<g transform="translate(1280,110)">
+
+<circle class="node"
+r="42"/>
+
+<path class="icon"
+d="M-18 12 H18 V-10 L8 -20 H-18Z"/>
+
+<text class="title"
+x="0"
+y="78"
+text-anchor="middle">
+
+Production
+
+</text>
+
+</g>
+
+</svg>
