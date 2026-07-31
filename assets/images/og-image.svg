@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200"
+     height="630"
+     viewBox="0 0 1200 630">
+
+<defs>
+
+<linearGradient id="bg"
+x1="0%"
+y1="0%"
+x2="100%"
+y2="100%">
+
+<stop offset="0%" stop-color="#07111f"/>
+
+<stop offset="100%" stop-color="#1d4ed8"/>
+
+</linearGradient>
+
+</defs>
+
+<rect width="1200"
+height="630"
+fill="url(#bg)"/>
+
+<!-- Decorative PCB -->
+
+<g
+stroke="#60a5fa"
+stroke-width="2"
+opacity="0.12"
+fill="none">
+
+<path d="M60 90 H300 V180 H520"/>
+
+<path d="M1120 160 H860 V320 H640"/>
+
+<path d="M180 520 H520 V430 H720"/>
+
+<path d="M1020 500 H780"/>
+
+</g>
+
+<!-- Name -->
+
+<text
+x="90"
+y="180"
+font-family="Inter,Arial,sans-serif"
+font-size="64"
+font-weight="700"
+fill="white">
+
+Kees Hessels
+
+</text>
+
+<!-- Subtitle -->
+
+<text
+x="90"
+y="245"
+font-family="Inter,Arial,sans-serif"
+font-size="30"
+fill="#bfdbfe">
+
+Technology Architect
+
+</text>
+
+<text
+x="90"
+y="290"
+font-family="Inter,Arial,sans-serif"
+font-size="30"
+fill="#bfdbfe">
+
+Software • Electronics • Embedded Systems • IoT • AI
+
+</text>
+
+<!-- Accent Line -->
+
+<rect
+x="90"
+y="330"
+width="420"
+height="6"
+rx="3"
+fill="#60a5fa"/>
+
+<!-- Service Bullets -->
+
+<g
+font-family="Inter,Arial,sans-serif"
+font-size="24"
+fill="white">
+
+<text x="90" y="390">• Software Architecture</text>
+
+<text x="90" y="430">• Electronics Design</text>
+
+<text x="90" y="470">• Embedded Systems</text>
+
+<text x="90" y="510">• Industrial IoT</text>
+
+<text x="90" y="550">• Machine Vision</text>
+
+</g>
+
+<!-- KH Monogram -->
+
+<circle
+cx="1010"
+cy="315"
+r="110"
+fill="#2563eb"/>
+
+<text
+x="1010"
+y="340"
+text-anchor="middle"
+font-family="Inter,Arial,sans-serif"
+font-size="92"
+font-weight="700"
+fill="white">
+
+KH
+
+</text>
+
+</svg>
