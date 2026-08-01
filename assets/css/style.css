@@ -1007,3 +1007,82 @@ h2{
     margin-right:12px;
 
 }
+/* ==========================================
+   Scroll Navbar
+========================================== */
+
+.navbar{
+
+transition:.35s;
+
+}
+
+.navbar-scrolled{
+
+box-shadow:0 12px 28px rgba(0,0,0,.12);
+
+background:#fff;
+
+}
+
+/* ==========================================
+   Fade animation
+========================================== */
+
+.fade-in{
+
+opacity:0;
+
+transform:translateY(40px);
+
+transition:
+
+opacity .7s ease,
+
+transform .7s ease;
+
+}
+
+.fade-in.visible{
+
+opacity:1;
+
+transform:none;
+
+}
+
+/* ==========================================
+   Better buttons
+========================================== */
+
+.btn{
+
+transition:.25s;
+
+}
+
+.btn:hover{
+
+transform:translateY(-3px);
+
+box-shadow:0 12px 24px rgba(37,99,235,.18);
+
+}
+
+/* ==========================================
+   Cards
+========================================== */
+
+.card{
+
+transition:.3s;
+
+}
+
+.card:hover{
+
+transform:translateY(-8px);
+
+box-shadow:0 18px 40px rgba(0,0,0,.10);
+
+}

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+width="1200"
+height="675">
+
+<rect
+width="1200"
+height="675"
+fill="#eef2ff"/>
+
+<text
+x="600"
+y="338"
+text-anchor="middle"
+font-size="28"
+font-family="Arial"
+fill="#94a3b8">
+
+Loading...
+
+</text>
+
+</svg>

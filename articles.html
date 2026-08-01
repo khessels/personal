@@ -1,67 +1,90 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Engineering articles by Kees Hessels on architecture, embedded systems, IoT, electronics and technical leadership.">
-    <title>Articles | Kees Hessels</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="icon" href="favicon.svg" type="image/svg+xml">
-    <link rel="manifest" href="site.webmanifest">
-    <link rel="stylesheet" href="styles.css">
-    <meta property="og:title"
-      content="Kees Hessels | Technology Architect">
 
-<meta property="og:description"
-      content="Software Architecture • Electronics • Embedded Systems • Industrial IoT • Product Development">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description"
+    content="Engineering articles by Kees Hessels on architecture, embedded systems, IoT, electronics and technical leadership.">
+  <title>Articles | Kees Hessels</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="stylesheet" href="styles.css">
+  <meta property="og:title" content="Kees Hessels | Technology Architect">
 
-<meta property="og:image"
-      content="https://personal.kees-hessels.workers.dev/assets/images/og-image.png">
+  <meta property="og:description"
+    content="Software Architecture • Electronics • Embedded Systems • Industrial IoT • Product Development">
 
-<meta property="og:type"
-      content="website">
+  <meta property="og:image" content="https://personal.kees-hessels.workers.dev/assets/images/og-image.png">
 
-<meta property="og:url"
-      content="https://personal.kees-hessels.workers.dev/">
+  <meta property="og:type" content="website">
 
-<meta name="twitter:card"
-      content="summary_large_image">
+  <meta property="og:url" content="https://personal.kees-hessels.workers.dev/">
 
-<meta name="twitter:image"
-      content="https://personal.kees-hessels.workers.dev/assets/images/og-image.png">
-  </head>
-  <body>
-    <header class="site-header">
-      <div id="navbar"></div>
-    </header>
-    <main>
-      <section class="page-hero">
-        <div>
-          <p class="eyebrow">Articles</p>
-          <h1>Engineering knowledge for connected systems.</h1>
-          <p class="lede">Practical thinking on software architecture, embedded systems, electronics, machine vision, industrial IoT, Linux and engineering leadership.</p>
-        </div>
-      </section>
-      <section class="section">
-        <div class="card-grid three">
-          <article class="article-card tall"><span>Industrial IoT · 7 min</span><h2>Designing Telemetry That Survives Real Devices</h2><p>Reliable telemetry starts with constraints: intermittent networks, firmware contracts, storage costs and the operational questions the data must answer.</p></article>
-          <article class="article-card tall"><span>Software Architecture · 6 min</span><h2>When Laravel Belongs in Industrial Software</h2><p>A mature framework can be the right tool for serious systems when boundaries, testing, deployment and integration contracts are kept clear.</p></article>
-          <article class="article-card tall"><span>Product Development · 8 min</span><h2>From Prototype to Production Hardware</h2><p>The moment a prototype meets factories, vehicles or retail floors, documentation, diagnostics and maintainability become central design concerns.</p></article>
-          <article class="article-card tall"><span>Machine Vision · 5 min</span><h2>Vision Systems Need Better Questions</h2><p>Camera choices matter, but the inspection logic, feedback loop and production tolerances decide whether the system creates value.</p></article>
-          <article class="article-card tall"><span>Leadership · 6 min</span><h2>Technical Leadership Is Translation</h2><p>Good product direction connects management goals, engineering constraints, hiring needs, milestones and clear day-to-day decisions.</p></article>
-          <article class="article-card tall"><span>Embedded Systems · 7 min</span><h2>Firmware Contracts for Backend Teams</h2><p>When device and cloud teams agree on state, retries, commands and errors early, integration becomes much less expensive.</p></article>
-        </div>
-      </section>
-    </main>
-    <div id="footer"></div>
+  <meta name="twitter:card" content="summary_large_image">
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+  <meta name="twitter:image" content="https://personal.kees-hessels.workers.dev/assets/images/og-image.png">
+</head>
 
-<script src="assets/js/include.js"></script>
+<body>
+  <header class="site-header">
+    <div id="navbar"></div>
+  </header>
+  <main>
+    <section class="page-hero">
+      <div>
+        <p class="eyebrow">Articles</p>
+        <h1>Engineering knowledge for connected systems.</h1>
+        <p class="lede">Practical thinking on software architecture, embedded systems, electronics, machine vision,
+          industrial IoT, Linux and engineering leadership.</p>
+      </div>
+    </section>
+    <section class="section fade-in">
+      <div class="card-grid three">
+        <article class="article-card tall"><span>Industrial IoT · 7 min</span>
+          <h2>Designing Telemetry That Survives Real Devices</h2>
+          <p>Reliable telemetry starts with constraints: intermittent networks, firmware contracts, storage costs and
+            the operational questions the data must answer.</p>
+        </article>
+        <article class="article-card tall"><span>Software Architecture · 6 min</span>
+          <h2>When Laravel Belongs in Industrial Software</h2>
+          <p>A mature framework can be the right tool for serious systems when boundaries, testing, deployment and
+            integration contracts are kept clear.</p>
+        </article>
+        <article class="article-card tall"><span>Product Development · 8 min</span>
+          <h2>From Prototype to Production Hardware</h2>
+          <p>The moment a prototype meets factories, vehicles or retail floors, documentation, diagnostics and
+            maintainability become central design concerns.</p>
+        </article>
+        <article class="article-card tall"><span>Machine Vision · 5 min</span>
+          <h2>Vision Systems Need Better Questions</h2>
+          <p>Camera choices matter, but the inspection logic, feedback loop and production tolerances decide whether the
+            system creates value.</p>
+        </article>
+        <article class="article-card tall"><span>Leadership · 6 min</span>
+          <h2>Technical Leadership Is Translation</h2>
+          <p>Good product direction connects management goals, engineering constraints, hiring needs, milestones and
+            clear day-to-day decisions.</p>
+        </article>
+        <article class="article-card tall"><span>Embedded Systems · 7 min</span>
+          <h2>Firmware Contracts for Backend Teams</h2>
+          <p>When device and cloud teams agree on state, retries, commands and errors early, integration becomes much
+            less expensive.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+  <div id="footer"></div>
 
-<script src="assets/js/main.js"></script>
-  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="assets/js/include.js"></script>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+
 </html>

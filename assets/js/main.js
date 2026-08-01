@@ -1,25 +1,90 @@
-/* ============================================
-   Scroll Animations
-============================================ */
+/*
+=====================================================
+Portfolio Website
+Kees Hessels
+=====================================================
+*/
 
-const observer = new IntersectionObserver(entries=>{
+document.addEventListener("DOMContentLoaded", () => {
 
-    entries.forEach(entry=>{
+    /* ==========================================
+       Navbar shadow
+    ========================================== */
 
-        if(entry.isIntersecting){
+    const navbar = document.querySelector(".navbar");
 
-            entry.target.classList.add("show");
+    function updateNavbar(){
+
+        if(!navbar) return;
+
+        if(window.scrollY > 25){
+
+            navbar.classList.add("navbar-scrolled");
+
+        }else{
+
+            navbar.classList.remove("navbar-scrolled");
 
         }
 
+    }
+
+    updateNavbar();
+
+    window.addEventListener("scroll", updateNavbar);
+
+
+    /* ==========================================
+       Smooth scrolling
+    ========================================== */
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor=>{
+
+        anchor.addEventListener("click",function(e){
+
+            const target=document.querySelector(this.getAttribute("href"));
+
+            if(!target) return;
+
+            e.preventDefault();
+
+            target.scrollIntoView({
+
+                behavior:"smooth"
+
+            });
+
+        });
+
     });
 
-},{
-    threshold:.15
+
+    /* ==========================================
+       Fade animation
+    ========================================== */
+
+    const observer = new IntersectionObserver(entries=>{
+
+        entries.forEach(entry=>{
+
+            if(entry.isIntersecting){
+
+                entry.target.classList.add("visible");
+
+            }
+
+        });
+
+    },{
+
+        threshold:0.15
+
+    });
+
+    document.querySelectorAll(".fade-in").forEach(item=>{
+
+        observer.observe(item);
+
+    });
+
 });
-
-document.querySelectorAll(
-
-".fade-up,.fade-left,.fade-right,.zoom"
-
-).forEach(el=>observer.observe(el));
