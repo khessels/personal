@@ -4,310 +4,857 @@
 <head>
 
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>
-        Engineering Projects | Kees Hessels
-    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta name="description"
-        content="Software, Electronics, Embedded Systems, Machine Vision and IoT engineering projects by Kees Hessels.">
+        content="Kees Hessels — Technology, software engineering, systems architecture, IoT and product development.">
 
-    <link rel="icon" href="../assets/icons/favicon.ico">
+    <meta name="author" content="Kees Hessels">
+
+    <title>
+        Kees Hessels | Technology & Systems
+    </title>
+
+
+    <!-- ======================================================
+         FAVICON
+    ======================================================= -->
+
+    <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+
+
+    <!-- ======================================================
+         GOOGLE FONT
+    ======================================================= -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
+
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;600;700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+    <!-- ======================================================
+         SHARED STYLES
+    ======================================================= -->
 
-    <link rel="stylesheet" href="../assets/css/style.css">
-    <link rel="stylesheet" href="../assets/css/projects.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+    <!-- ======================================================
+         HOMEPAGE STYLES
+    ======================================================= -->
+
+    <link rel="stylesheet" href="assets/css/home.css">
 
 </head>
 
+
 <body>
 
-    <div id="navbar"></div>
 
-    <section class="hero hero-small">
+    <!-- ======================================================
+         HEADER
+    ======================================================= -->
 
-        <div class="container text-center">
+    <header class="site-header">
 
-            <span class="section-subtitle">
+        <nav id="site-nav" class="site-nav" aria-label="Main navigation">
 
-                Portfolio
+            <div class="nav-inner">
 
-            </span>
 
-            <h1>
+                <!-- BRAND -->
 
-                Engineering Projects
+                <a href="#hero" class="site-logo" aria-label="Kees Hessels home">
 
-            </h1>
+                    <span class="logo-mark">
+                        KH
+                    </span>
 
-            <p class="lead">
+                    <span class="logo-text">
+                        Kees Hessels
+                    </span>
 
-                Selected multidisciplinary engineering projects covering software,
-                electronics,
-                embedded systems,
-                industrial automation,
-                machine vision
-                and IoT.
+                </a>
 
+
+                <!-- DESKTOP NAVIGATION -->
+
+                <div class="nav-links">
+
+                    <a href="#hero" class="active">
+                        Home
+                    </a>
+
+                    <a href="#services">
+                        What I Do
+                    </a>
+
+                    <a href="#work">
+                        Work
+                    </a>
+
+                    <a href="#about">
+                        About
+                    </a>
+
+                    <a href="#contact" class="nav-contact">
+                        Let's Talk
+                    </a>
+
+                </div>
+
+
+                <!-- MOBILE MENU BUTTON -->
+
+                <button id="menu-toggle" class="menu-toggle" type="button" aria-label="Open navigation"
+                    aria-expanded="false" aria-controls="mobile-menu">
+
+                    <span></span>
+                    <span></span>
+                    <span></span>
+
+                </button>
+
+            </div>
+
+
+            <!-- MOBILE NAVIGATION -->
+
+            <div id="mobile-menu" class="mobile-menu">
+
+                <a href="#hero">
+                    Home
+                </a>
+
+                <a href="#services">
+                    What I Do
+                </a>
+
+                <a href="#work">
+                    Work
+                </a>
+
+                <a href="#about">
+                    About
+                </a>
+
+                <a href="#contact">
+                    Let's Talk
+                </a>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <!-- ======================================================
+         HERO
+    ======================================================= -->
+
+    <main>
+
+
+        <section id="hero" class="hero">
+
+
+            <!-- HERO IMAGE -->
+
+            <div class="hero-background">
+
+                <img src="assets/images/hero-home.webp" class="hero-image"
+                    alt="Kees Hessels in a professional technology workspace">
+
+            </div>
+
+
+            <!-- DARK OVERLAY -->
+
+            <div class="hero-overlay"></div>
+
+
+            <!-- SUBTLE TECH PATTERN -->
+
+            <div class="hero-pattern" aria-hidden="true"></div>
+
+
+            <!-- HERO CONTENT -->
+
+            <div class="hero-container">
+
+                <div class="hero-content">
+
+
+                    <span class="hero-eyebrow">
+                        KEES HESSELS
+                    </span>
+
+
+                    <h1 class="hero-title">
+
+                        Technology
+                        <br>
+
+                        that works.
+
+                    </h1>
+
+
+                    <div class="hero-accent"></div>
+
+
+                    <p class="hero-subtitle">
+
+                        Software · Systems · Connected Technology
+
+                    </p>
+
+
+                    <p class="hero-description">
+
+                        I design and build practical technology
+                        solutions that turn complex ideas into
+                        reliable products, systems and businesses.
+
+                    </p>
+
+
+                    <!-- CTA -->
+
+                    <div class="hero-actions">
+
+                        <a href="#services" class="btn btn-primary">
+
+                            Explore What I Do
+
+                            <span aria-hidden="true">
+                                →
+                            </span>
+
+                        </a>
+
+
+                        <a href="#contact" class="btn btn-secondary">
+
+                            Work With Me
+
+                        </a>
+
+                    </div>
+
+
+                    <!-- HERO POSITIONING -->
+
+                    <div class="hero-positioning">
+
+                        <span>
+                            Software
+                        </span>
+
+                        <span>
+                            Systems
+                        </span>
+
+                        <span>
+                            IoT
+                        </span>
+
+                        <span>
+                            Product Development
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- SCROLL INDICATOR -->
+
+            <a href="#services" class="hero-scroll" aria-label="Scroll to explore">
+
+                <span>
+                    SCROLL TO EXPLORE
+                </span>
+
+                <span class="hero-scroll-arrow" aria-hidden="true">
+                    ↓
+                </span>
+
+            </a>
+
+        </section>
+
+
+        <!-- ==================================================
+             WHAT I DO
+        =================================================== -->
+
+        <section id="services" class="services-section">
+
+            <div class="section-container">
+
+
+                <div class="section-intro">
+
+                    <span class="section-eyebrow">
+                        WHAT I DO
+                    </span>
+
+                    <h2>
+                        Technology from idea
+                        to working solution.
+                    </h2>
+
+                    <p>
+                        Combining software engineering,
+                        systems architecture and hands-on
+                        technology experience to solve
+                        complex problems.
+                    </p>
+
+                </div>
+
+
+                <div class="services-grid">
+
+
+                    <!-- SERVICE 1 -->
+
+                    <article class="service-card">
+
+                        <span class="service-number">
+                            01
+                        </span>
+
+                        <div class="service-icon">
+                            &lt;/&gt;
+                        </div>
+
+                        <h3>
+                            Software Engineering
+                        </h3>
+
+                        <p>
+                            Scalable backend systems,
+                            applications, APIs and
+                            full-stack solutions.
+                        </p>
+
+                    </article>
+
+
+                    <!-- SERVICE 2 -->
+
+                    <article class="service-card">
+
+                        <span class="service-number">
+                            02
+                        </span>
+
+                        <div class="service-icon">
+                            ◇
+                        </div>
+
+                        <h3>
+                            Systems Architecture
+                        </h3>
+
+                        <p>
+                            Designing reliable distributed
+                            systems, databases, messaging
+                            and cloud infrastructure.
+                        </p>
+
+                    </article>
+
+
+                    <!-- SERVICE 3 -->
+
+                    <article class="service-card">
+
+                        <span class="service-number">
+                            03
+                        </span>
+
+                        <div class="service-icon">
+                            ◎
+                        </div>
+
+                        <h3>
+                            IoT & Connected Systems
+                        </h3>
+
+                        <p>
+                            Connecting devices, software,
+                            telemetry and cloud services
+                            into complete systems.
+                        </p>
+
+                    </article>
+
+
+                    <!-- SERVICE 4 -->
+
+                    <article class="service-card">
+
+                        <span class="service-number">
+                            04
+                        </span>
+
+                        <div class="service-icon">
+                            +
+                        </div>
+
+                        <h3>
+                            Product Development
+                        </h3>
+
+                        <p>
+                            From technical concept and
+                            architecture through development,
+                            integration and delivery.
+                        </p>
+
+                    </article>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================================================
+             WORK
+        =================================================== -->
+
+        <section id="work" class="work-section">
+
+            <div class="section-container">
+
+
+                <div class="section-heading-row">
+
+                    <div>
+
+                        <span class="section-eyebrow">
+                            SELECTED WORK
+                        </span>
+
+                        <h2>
+                            Complex problems.
+                            <br>
+                            Real systems.
+                        </h2>
+
+                    </div>
+
+
+                    <a href="projects.html" class="text-link">
+
+                        View all work
+                        <span>→</span>
+
+                    </a>
+
+                </div>
+
+
+                <div class="work-grid">
+
+
+                    <!-- PROJECT 1 -->
+
+                    <article class="work-card">
+
+                        <div class="work-card-image">
+
+                            <img src="assets/images/project-smartcart.jpg" alt="Smart cart technology project"
+                                loading="lazy">
+
+                        </div>
+
+                        <div class="work-card-content">
+
+                            <span class="work-category">
+                                RETAIL · IoT · SOFTWARE
+                            </span>
+
+                            <h3>
+                                Smart Cart POS
+                            </h3>
+
+                            <p>
+                                A connected retail platform
+                                combining backend services,
+                                APIs, hardware integration
+                                and smart-cart technology.
+                            </p>
+
+                            <a href="projects.html#smartcart" class="text-link">
+                                Explore project →
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PROJECT 2 -->
+
+                    <article class="work-card">
+
+                        <div class="work-card-image">
+
+                            <img src="assets/images/project-automotive.jpg"
+                                alt="Connected automotive technology project" loading="lazy">
+
+                        </div>
+
+                        <div class="work-card-content">
+
+                            <span class="work-category">
+                                AUTOMOTIVE · IoT
+                            </span>
+
+                            <h3>
+                                Connected Vehicle Systems
+                            </h3>
+
+                            <p>
+                                Distributed telemetry and
+                                device-control systems for
+                                connected vehicles.
+                            </p>
+
+                            <a href="projects.html#automotive" class="text-link">
+                                Explore project →
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================================================
+             ABOUT / BRAND
+        =================================================== -->
+
+        <section id="about" class="about-section">
+
+            <div class="section-container about-grid">
+
+
+                <div class="about-heading">
+
+                    <span class="section-eyebrow">
+                        THE PERSON BEHIND THE TECHNOLOGY
+                    </span>
+
+                    <h2>
+                        Experience matters
+                        when technology gets
+                        complicated.
+                    </h2>
+
+                </div>
+
+
+                <div class="about-content">
+
+                    <p class="about-lead">
+
+                        Kees Hessels is a software engineer,
+                        technology architect and electronics
+                        engineer with more than 15 years of
+                        professional software experience.
+
+                    </p>
+
+
+                    <p>
+
+                        His work spans scalable backend
+                        systems, distributed architectures,
+                        product development, IoT and the
+                        integration of software with hardware.
+
+                    </p>
+
+
+                    <p>
+
+                        He has led engineering teams,
+                        managed product development and
+                        worked across the complete technology
+                        lifecycle — from architecture and
+                        research through implementation
+                        and delivery.
+
+                    </p>
+
+
+                    <a href="about.html" class="text-link">
+
+                        More about Kees
+                        <span>→</span>
+
+                    </a>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================================================
+             CREDIBILITY STRIP
+        =================================================== -->
+
+        <section class="credibility-section">
+
+            <div class="section-container">
+
+
+                <div class="credibility-grid">
+
+
+                    <div class="credibility-item">
+
+                        <strong>
+                            15+
+                        </strong>
+
+                        <span>
+                            Years software experience
+                        </span>
+
+                    </div>
+
+
+                    <div class="credibility-item">
+
+                        <strong>
+                            Full Stack
+                        </strong>
+
+                        <span>
+                            Backend & frontend
+                        </span>
+
+                    </div>
+
+
+                    <div class="credibility-item">
+
+                        <strong>
+                            IoT
+                        </strong>
+
+                        <span>
+                            Connected systems
+                        </span>
+
+                    </div>
+
+
+                    <div class="credibility-item">
+
+                        <strong>
+                            Architecture
+                        </strong>
+
+                        <span>
+                            Systems & product design
+                        </span>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================================================
+             CONTACT
+        =================================================== -->
+
+        <section id="contact" class="contact-section">
+
+            <div class="section-container">
+
+
+                <div class="contact-content">
+
+                    <span class="section-eyebrow">
+                        LET'S TALK
+                    </span>
+
+
+                    <h2>
+                        Have a difficult
+                        technology problem?
+                    </h2>
+
+
+                    <p>
+
+                        Let's discuss what you're trying
+                        to build and see where technology
+                        can take it.
+
+                    </p>
+
+
+                    <div class="contact-actions">
+
+                        <a href="mailto:kees.hessels@gmail.com" class="btn btn-primary">
+
+                            Start a Conversation
+
+                            <span aria-hidden="true">
+                                →
+                            </span>
+
+                        </a>
+
+
+                        <a href="cv.html" class="btn btn-secondary-dark">
+
+                            View CV
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="contact-details">
+
+                    <div>
+                        <span>
+                            LOCATION
+                        </span>
+
+                        <strong>
+                            Santa Ana, Costa Rica
+                        </strong>
+                    </div>
+
+
+                    <div>
+                        <span>
+                            EMAIL
+                        </span>
+
+                        <a href="mailto:kees.hessels@gmail.com">
+                            kees.hessels@gmail.com
+                        </a>
+                    </div>
+
+
+                    <div>
+                        <span>
+                            PHONE
+                        </span>
+
+                        <a href="tel:+50661073424">
+                            +506 61073424
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ======================================================
+         FOOTER
+    ======================================================= -->
+
+    <footer class="site-footer">
+
+        <div class="footer-inner">
+
+
+            <div class="footer-brand">
+
+                <span class="logo-mark">
+                    KH
+                </span>
+
+                <span>
+                    Kees Hessels
+                </span>
+
+            </div>
+
+
+            <p>
+                Technology · Software · Systems
             </p>
 
-        </div>
 
-    </section>
-    <section class="section fade-in">
+            <div class="footer-links">
 
-        <div class="container">
+                <a href="#hero">
+                    Home
+                </a>
 
-            <div class="section-header">
+                <a href="#services">
+                    What I Do
+                </a>
 
-                <span class="section-subtitle">
+                <a href="#work">
+                    Work
+                </a>
 
-                    Featured Projects
+                <a href="#about">
+                    About
+                </a>
 
-                </span>
-
-                <h2>
-
-                    Recent Engineering Work
-
-                </h2>
-
-                <p>
-
-                    Every project presented here demonstrates a combination of architecture,
-                    engineering and practical implementation.
-
-                </p>
+                <a href="#contact">
+                    Contact
+                </a>
 
             </div>
 
-            <div class="row g-4">
-                <div class="col-lg-4">
-
-                    <div class="card h-100">
-
-                        <img src="../assets/images/project-retail.svg" class="card-img-top" alt="Retail Platform">
-
-                        <div class="card-body">
-
-                            <span class="badge bg-primary mb-3">
-
-                                Enterprise Software
-
-                            </span>
-
-                            <h3>
-
-                                Retail Management Platform
-
-                            </h3>
-
-                            <p>
-
-                                Complete retail and POS solution supporting inventory,
-                                warehousing,
-                                purchasing,
-                                payments,
-                                reporting
-                                and cloud synchronization.
-
-                            </p>
-
-                            <a href="smart-retail.html" class="btn btn-primary">
-
-                                Read Case Study
-
-                            </a>
-
-                        </div>
-
-                    </div>
-
-                </div>
-                <div class="col-lg-4">
-
-                    <div class="card h-100">
-
-                        <img src="../assets/images/project-pcb.svg" class="card-img-top">
-
-                        <div class="card-body">
-
-                            <span class="badge bg-primary mb-3">
-
-                                Machine Vision
-
-                            </span>
-
-                            <h3>
-
-                                AI PCB Inspection
-
-                            </h3>
-
-                            <p>
-
-                                Automated optical inspection platform using industrial cameras,
-                                AI-assisted defect detection
-                                and precision motion control.
-
-                            </p>
-
-                            <a href="pcb-vision.html" class="btn btn-primary">
-
-                                Read Case Study
-
-                            </a>
-
-                        </div>
-
-                    </div>
-
-                </div>
-                <div class="col-lg-4">
-
-                    <div class="card h-100">
-
-                        <img src="../assets/images/project-iot.svg" class="card-img-top">
-
-                        <div class="card-body">
-
-                            <span class="badge bg-primary mb-3">
-
-                                Industrial IoT
-
-                            </span>
-
-                            <h3>
-
-                                Industrial Monitoring Platform
-
-                            </h3>
-
-                            <p>
-
-                                Cloud-connected industrial monitoring system
-                                collecting telemetry from remote equipment
-                                for predictive maintenance.
-
-                            </p>
-
-                            <a href="industrial-iot.html" class="btn btn-primary">
-
-                                Read Case Study
-
-                            </a>
-
-                        </div>
-
-                    </div>
-
-                </div>
-            </div>
 
         </div>
 
-    </section>
-    <section class="section bg-light">
+    </footer>
 
-        <div class="container">
 
-            <div class="section-header">
+    <!-- ======================================================
+         JAVASCRIPT
+    ======================================================= -->
 
-                <span class="section-subtitle">
+    <script src="assets/js/home.js"></script>
 
-                    Additional Expertise
-
-                </span>
-
-                <h2>
-
-                    Other Projects
-
-                </h2>
-
-            </div>
-
-            <div class="services-grid">
-
-                <div class="service-card">
-
-                    <h3>Embedded Linux</h3>
-
-                    <p>
-
-                        Industrial controllers,
-                        gateways,
-                        custom Linux appliances,
-                        Raspberry Pi CM4.
-
-                    </p>
-
-                </div>
-
-                <div class="service-card">
-
-                    <h3>Custom Electronics</h3>
-
-                    <p>
-
-                        PCB design,
-                        embedded hardware,
-                        analog and digital electronics,
-                        prototypes.
-
-                    </p>
-
-                </div>
-
-                <div class="service-card">
-
-                    <h3>Automation</h3>
-
-                    <p>
-
-                        Industrial automation,
-                        machine control,
-                        robotics,
-                        PLC integration.
-
-                    </p>
-
-                </div>
-
-                <div class="service-card">
-
-                    <h3>Product Development</h3>
-
-                    <p>
-
-                        Complete development from concept through production.
-
-                    </p>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-    <div id="footer"></div>
-
-    <script src="../assets/js/include.js"></script>
-    <script src="../assets/js/main.js" defer></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
