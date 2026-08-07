@@ -1,0 +1,866 @@
+/* ============================================================
+   KEES HESSELS — WHAT I DO
+============================================================ */
+
+
+/* ============================================================
+   PAGE HERO
+============================================================ */
+
+.page-hero {
+
+    position: relative;
+
+    min-height: 560px;
+
+    display: flex;
+
+    align-items: flex-end;
+
+    padding: 150px 0 90px;
+
+    overflow: hidden;
+
+    background:
+        #07111f;
+
+    color:
+        #ffffff;
+
+}
+
+
+.page-hero::before {
+
+    content: "";
+
+    position: absolute;
+
+    width: 650px;
+
+    height: 650px;
+
+    right: -180px;
+
+    top: -220px;
+
+    border: 1px solid
+        rgba(96, 165, 250, 0.12);
+
+    border-radius: 50%;
+
+}
+
+
+.page-hero::after {
+
+    content: "";
+
+    position: absolute;
+
+    width: 420px;
+
+    height: 420px;
+
+    right: -40px;
+
+    top: -100px;
+
+    border: 1px solid
+        rgba(96, 165, 250, 0.08);
+
+    border-radius: 50%;
+
+}
+
+
+.page-hero .section-container {
+
+    position: relative;
+
+    z-index: 2;
+
+}
+
+
+.page-hero h1 {
+
+    max-width: 900px;
+
+    margin: 0;
+
+    color: #ffffff;
+
+    font-size:
+        clamp(
+            3.2rem,
+            6vw,
+            6rem
+        );
+
+    line-height: 0.98;
+
+    letter-spacing: -0.055em;
+
+}
+
+
+.page-hero p {
+
+    max-width: 650px;
+
+    margin: 28px 0 0;
+
+    color:
+        rgba(
+            255,
+            255,
+            255,
+            0.62
+        );
+
+    font-size: 1.08rem;
+
+    line-height: 1.75;
+
+}
+
+
+/* ============================================================
+   INTRODUCTION
+============================================================ */
+
+.capabilities-intro {
+
+    padding: 120px 0;
+
+    background: #f7f9fc;
+
+    color: #07111f;
+
+}
+
+
+.capabilities-intro-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        minmax(0, 0.9fr)
+        minmax(0, 1.1fr);
+
+    gap: 100px;
+
+}
+
+
+.capabilities-intro h2 {
+
+    max-width: 600px;
+
+    margin: 0;
+
+    color: #07111f;
+
+    font-size:
+        clamp(
+            2.4rem,
+            4vw,
+            4rem
+        );
+
+    line-height: 1.02;
+
+    letter-spacing: -0.045em;
+
+}
+
+
+.capabilities-intro-grid > div:last-child {
+
+    max-width: 650px;
+
+}
+
+
+.capabilities-intro p {
+
+    color: #64748b;
+
+    font-size: 1rem;
+
+    line-height: 1.8;
+
+}
+
+
+.capabilities-intro .intro-lead {
+
+    margin-top: 0;
+
+    margin-bottom: 25px;
+
+    color: #07111f;
+
+    font-size: 1.35rem;
+
+    line-height: 1.55;
+
+}
+
+
+/* ============================================================
+   CAPABILITY SECTIONS
+============================================================ */
+
+.capability-section {
+
+    padding: 125px 0;
+
+}
+
+
+.capability-dark {
+
+    background: #07111f;
+
+    color: #ffffff;
+
+}
+
+
+.capability-light {
+
+    background: #ffffff;
+
+    color: #07111f;
+
+}
+
+
+/* ============================================================
+   CAPABILITY GRID
+============================================================ */
+
+.capability-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        110px
+        minmax(0, 1fr);
+
+    gap: 50px;
+
+}
+
+
+.capability-number {
+
+    padding-top: 8px;
+
+    font-size: 0.75rem;
+
+    font-weight: 600;
+
+    letter-spacing: 0.14em;
+
+}
+
+
+.capability-dark .capability-number {
+
+    color:
+        rgba(
+            255,
+            255,
+            255,
+            0.32
+        );
+
+}
+
+
+.capability-light .capability-number {
+
+    color: #94a3b8;
+
+}
+
+
+/* ============================================================
+   CAPABILITY CONTENT
+============================================================ */
+
+.capability-content {
+
+    max-width: 1050px;
+
+}
+
+
+.capability-label {
+
+    display: inline-block;
+
+    margin-bottom: 20px;
+
+    font-size: 0.68rem;
+
+    font-weight: 600;
+
+    letter-spacing: 0.18em;
+
+}
+
+
+.capability-dark .capability-label {
+
+    color: #60a5fa;
+
+}
+
+
+.capability-light .capability-label {
+
+    color: #2563eb;
+
+}
+
+
+.capability-content h2 {
+
+    max-width: 850px;
+
+    margin: 0;
+
+    font-size:
+        clamp(
+            2.5rem,
+            4.5vw,
+            4.7rem
+        );
+
+    line-height: 0.98;
+
+    letter-spacing: -0.05em;
+
+}
+
+
+.capability-dark .capability-content h2 {
+
+    color: #ffffff;
+
+}
+
+
+.capability-light .capability-content h2 {
+
+    color: #07111f;
+
+}
+
+
+/* ============================================================
+   LEAD PARAGRAPH
+============================================================ */
+
+.capability-lead {
+
+    max-width: 780px;
+
+    margin: 30px 0 60px;
+
+    font-size: 1.15rem;
+
+    line-height: 1.75;
+
+}
+
+
+.capability-dark .capability-lead {
+
+    color:
+        rgba(
+            255,
+            255,
+            255,
+            0.62
+        );
+
+}
+
+
+.capability-light .capability-lead {
+
+    color: #64748b;
+
+}
+
+
+/* ============================================================
+   CAPABILITY COLUMNS
+============================================================ */
+
+.capability-columns {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(
+            3,
+            1fr
+        );
+
+    gap: 35px;
+
+    padding-top: 35px;
+
+    border-top: 1px solid;
+
+}
+
+
+.capability-dark .capability-columns {
+
+    border-color:
+        rgba(
+            255,
+            255,
+            255,
+            0.12
+        );
+
+}
+
+
+.capability-light .capability-columns {
+
+    border-color:
+        #e2e8f0;
+
+}
+
+
+.capability-columns h3 {
+
+    margin: 0 0 12px;
+
+    font-size: 1rem;
+
+}
+
+
+.capability-dark .capability-columns h3 {
+
+    color: #ffffff;
+
+}
+
+
+.capability-light .capability-columns h3 {
+
+    color: #07111f;
+
+}
+
+
+.capability-columns p {
+
+    margin: 0;
+
+    font-size: 0.88rem;
+
+    line-height: 1.75;
+
+}
+
+
+.capability-dark .capability-columns p {
+
+    color:
+        rgba(
+            255,
+            255,
+            255,
+            0.50
+        );
+
+}
+
+
+.capability-light .capability-columns p {
+
+    color: #64748b;
+
+}
+
+
+/* ============================================================
+   TECHNOLOGY TAGS
+============================================================ */
+
+.technology-list {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 8px;
+
+    margin-top: 45px;
+
+}
+
+
+.technology-list span {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    min-height: 34px;
+
+    padding: 0 13px;
+
+    border: 1px solid;
+
+    font-size: 0.67rem;
+
+    font-weight: 500;
+
+    letter-spacing: 0.04em;
+
+}
+
+
+.capability-dark .technology-list span {
+
+    border-color:
+        rgba(
+            255,
+            255,
+            255,
+            0.16
+        );
+
+    color:
+        rgba(
+            255,
+            255,
+            255,
+            0.62
+        );
+
+}
+
+
+.capability-light .technology-list span {
+
+    border-color: #dbe2ea;
+
+    color: #64748b;
+
+}
+
+
+/* ============================================================
+   SECTION SEPARATORS
+============================================================ */
+
+.capability-dark + .capability-light {
+
+    border-top:
+        1px solid #e8edf3;
+
+}
+
+
+.capability-light + .capability-dark {
+
+    border-top:
+        1px solid
+        rgba(
+            255,
+            255,
+            255,
+            0.06
+        );
+
+}
+
+
+/* ============================================================
+   CTA
+============================================================ */
+
+.capability-cta {
+
+    padding: 140px 0;
+
+    background: #0d1b2e;
+
+    color: #ffffff;
+
+}
+
+
+.capability-cta .section-container {
+
+    max-width: 900px;
+
+    margin-left: max(
+        24px,
+        calc(
+            (100% - 1320px) / 2
+        )
+    );
+
+}
+
+
+.capability-cta .section-eyebrow {
+
+    color: #60a5fa;
+
+}
+
+
+.capability-cta h2 {
+
+    max-width: 800px;
+
+    margin: 0;
+
+    color: #ffffff;
+
+    font-size:
+        clamp(
+            2.8rem,
+            5vw,
+            5rem
+        );
+
+    line-height: 0.98;
+
+    letter-spacing: -0.05em;
+
+}
+
+
+.capability-cta p {
+
+    max-width: 620px;
+
+    margin: 25px 0 35px;
+
+    color:
+        rgba(
+            255,
+            255,
+            255,
+            0.58
+        );
+
+    font-size: 1rem;
+
+    line-height: 1.75;
+
+}
+
+
+/* ============================================================
+   TABLET
+============================================================ */
+
+@media (max-width: 1000px) {
+
+    .capabilities-intro-grid {
+
+        gap: 60px;
+
+    }
+
+
+    .capability-grid {
+
+        grid-template-columns:
+            70px
+            minmax(0, 1fr);
+
+        gap: 30px;
+
+    }
+
+
+    .capability-columns {
+
+        gap: 25px;
+
+    }
+
+}
+
+
+/* ============================================================
+   MOBILE
+============================================================ */
+
+@media (max-width: 767.98px) {
+
+    .page-hero {
+
+        min-height: 500px;
+
+        padding:
+            130px 0
+            70px;
+
+    }
+
+
+    .page-hero h1 {
+
+        font-size:
+            clamp(
+                3rem,
+                12vw,
+                4.5rem
+            );
+
+    }
+
+
+    .capabilities-intro {
+
+        padding: 90px 0;
+
+    }
+
+
+    .capabilities-intro-grid {
+
+        grid-template-columns: 1fr;
+
+        gap: 45px;
+
+    }
+
+
+    .capability-section {
+
+        padding: 90px 0;
+
+    }
+
+
+    .capability-grid {
+
+        grid-template-columns: 1fr;
+
+        gap: 25px;
+
+    }
+
+
+    .capability-number {
+
+        padding: 0;
+
+    }
+
+
+    .capability-content h2 {
+
+        font-size:
+            clamp(
+                2.5rem,
+                10vw,
+                3.6rem
+            );
+
+    }
+
+
+    .capability-lead {
+
+        margin-bottom: 45px;
+
+        font-size: 1rem;
+
+    }
+
+
+    .capability-columns {
+
+        grid-template-columns: 1fr;
+
+        gap: 35px;
+
+    }
+
+
+    .capability-cta {
+
+        padding: 100px 0;
+
+    }
+
+
+    .capability-cta .section-container {
+
+        margin-left: auto;
+
+        margin-right: auto;
+
+    }
+
+}
+
+
+/* ============================================================
+   SMALL MOBILE
+============================================================ */
+
+@media (max-width: 480px) {
+
+    .page-hero {
+
+        min-height: 470px;
+
+    }
+
+
+    .page-hero p {
+
+        font-size: 0.92rem;
+
+    }
+
+
+    .capability-section {
+
+        padding: 75px 0;
+
+    }
+
+
+    .technology-list {
+
+        margin-top: 35px;
+
+    }
+
+
+    .technology-list span {
+
+        min-height: 31px;
+
+        padding: 0 10px;
+
+        font-size: 0.62rem;
+
+    }
+
+}
