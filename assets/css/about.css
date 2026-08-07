@@ -1,0 +1,1077 @@
+/* ============================================================
+   KEES HESSELS — ABOUT
+============================================================ */
+
+
+/* ============================================================
+   ABOUT HERO
+============================================================ */
+
+.about-hero {
+
+    padding: 150px 0 120px;
+
+    background: #07111f;
+
+    color: #ffffff;
+
+    overflow: hidden;
+
+}
+
+
+.about-hero-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        minmax(0, 1.05fr)
+        minmax(320px, 0.75fr);
+
+    gap: 100px;
+
+    align-items: center;
+
+}
+
+
+.about-hero-content {
+
+    max-width: 800px;
+
+}
+
+
+.about-hero-content h1 {
+
+    margin: 0;
+
+    color: #ffffff;
+
+    font-size:
+        clamp(
+            3rem,
+            5.5vw,
+            5.8rem
+        );
+
+    line-height: 0.97;
+
+    letter-spacing: -0.055em;
+
+}
+
+
+.about-hero-content p {
+
+    max-width: 680px;
+
+    margin: 32px 0 0;
+
+    color:
+        rgba(
+            255,
+            255,
+            255,
+            0.62
+        );
+
+    font-size: 1.08rem;
+
+    line-height: 1.8;
+
+}
+
+
+/* ============================================================
+   PROFILE IMAGE
+============================================================ */
+
+.about-hero-image {
+
+    position: relative;
+
+    max-width: 520px;
+
+    justify-self: end;
+
+}
+
+
+.about-hero-image::before {
+
+    content: "";
+
+    position: absolute;
+
+    width: 100%;
+
+    height: 100%;
+
+    top: 25px;
+
+    left: 25px;
+
+    border:
+        1px solid
+        rgba(
+            96,
+            165,
+            250,
+            0.25
+        );
+
+    z-index: 0;
+
+}
+
+
+.about-hero-image::after {
+
+    content: "";
+
+    position: absolute;
+
+    width: 180px;
+
+    height: 180px;
+
+    right: -70px;
+
+    bottom: -70px;
+
+    border:
+        1px solid
+        rgba(
+            96,
+            165,
+            250,
+            0.14
+        );
+
+    border-radius: 50%;
+
+}
+
+
+.about-hero-image img {
+
+    position: relative;
+
+    z-index: 1;
+
+    display: block;
+
+    width: 100%;
+
+    aspect-ratio: 4 / 5;
+
+    object-fit: cover;
+
+}
+
+
+/* ============================================================
+   STORY SECTIONS
+============================================================ */
+
+.about-story {
+
+    padding: 125px 0;
+
+    background: #ffffff;
+
+}
+
+
+.about-story-dark {
+
+    background: #07111f;
+
+    color: #ffffff;
+
+}
+
+
+.about-story-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        150px
+        minmax(0, 1fr);
+
+    gap: 80px;
+
+}
+
+
+.about-story-label {
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: space-between;
+
+    min-height: 180px;
+
+}
+
+
+.about-story-number {
+
+    font-size: 0.7rem;
+
+    font-weight: 600;
+
+    letter-spacing: 0.16em;
+
+}
+
+
+.about-story:not(.about-story-dark)
+.about-story-number {
+
+    color: #94a3b8;
+
+}
+
+
+.about-story-dark
+.about-story-number {
+
+    color:
+        rgba(
+            255,
+            255,
+            255,
+            0.3
+        );
+
+}
+
+
+.about-story-content {
+
+    max-width: 850px;
+
+}
+
+
+.about-story-content h2 {
+
+    max-width: 800px;
+
+    margin: 0;
+
+    font-size:
+        clamp(
+            2.7rem,
+            4.8vw,
+            5rem
+        );
+
+    line-height: 0.98;
+
+    letter-spacing: -0.055em;
+
+}
+
+
+.about-story:not(.about-story-dark)
+.about-story-content h2 {
+
+    color: #07111f;
+
+}
+
+
+.about-story-dark
+.about-story-content h2 {
+
+    color: #ffffff;
+
+}
+
+
+.about-story-content p {
+
+    max-width: 760px;
+
+    margin: 25px 0 0;
+
+    font-size: 0.98rem;
+
+    line-height: 1.85;
+
+}
+
+
+.about-story:not(.about-story-dark)
+.about-story-content p {
+
+    color: #64748b;
+
+}
+
+
+.about-story-dark
+.about-story-content p {
+
+    color:
+        rgba(
+            255,
+            255,
+            255,
+            0.55
+        );
+
+}
+
+
+.about-story-content .about-lead {
+
+    margin-top: 35px;
+
+    margin-bottom: 30px;
+
+    font-size: 1.25rem;
+
+    line-height: 1.65;
+
+}
+
+
+.about-story:not(.about-story-dark)
+.about-story-content .about-lead {
+
+    color: #334155;
+
+}
+
+
+.about-story-dark
+.about-story-content .about-lead {
+
+    color:
+        rgba(
+            255,
+            255,
+            255,
+            0.7
+        );
+
+}
+
+
+/* ============================================================
+   HOW I WORK
+============================================================ */
+
+.about-principles {
+
+    padding: 130px 0;
+
+    background: #f7f9fc;
+
+}
+
+
+.about-principles-header {
+
+    max-width: 800px;
+
+    margin-bottom: 75px;
+
+}
+
+
+.about-principles-header h2 {
+
+    margin: 0;
+
+    color: #07111f;
+
+    font-size:
+        clamp(
+            2.7rem,
+            4.5vw,
+            4.7rem
+        );
+
+    line-height: 0.98;
+
+    letter-spacing: -0.05em;
+
+}
+
+
+.about-principles-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(
+            4,
+            1fr
+        );
+
+    gap: 1px;
+
+    background: #dbe2ea;
+
+    border:
+        1px solid #dbe2ea;
+
+}
+
+
+.about-principles-grid article {
+
+    min-height: 300px;
+
+    padding: 38px;
+
+    background: #f7f9fc;
+
+}
+
+
+.about-principles-grid article > span {
+
+    display: block;
+
+    margin-bottom: 65px;
+
+    color: #2563eb;
+
+    font-size: 0.65rem;
+
+    font-weight: 600;
+
+    letter-spacing: 0.15em;
+
+}
+
+
+.about-principles-grid h3 {
+
+    margin: 0 0 15px;
+
+    color: #07111f;
+
+    font-size: 1.1rem;
+
+    line-height: 1.25;
+
+}
+
+
+.about-principles-grid p {
+
+    margin: 0;
+
+    color: #64748b;
+
+    font-size: 0.86rem;
+
+    line-height: 1.75;
+
+}
+
+
+/* ============================================================
+   EXPERIENCE
+============================================================ */
+
+.about-experience {
+
+    padding: 130px 0;
+
+    background: #ffffff;
+
+}
+
+
+.about-experience-header {
+
+    max-width: 850px;
+
+    margin-bottom: 75px;
+
+}
+
+
+.about-experience-header h2 {
+
+    margin: 0;
+
+    color: #07111f;
+
+    font-size:
+        clamp(
+            2.7rem,
+            4.5vw,
+            4.8rem
+        );
+
+    line-height: 0.98;
+
+    letter-spacing: -0.05em;
+
+}
+
+
+/* ============================================================
+   EXPERIENCE TIMELINE
+============================================================ */
+
+.experience-timeline {
+
+    border-top:
+        1px solid #dbe2ea;
+
+}
+
+
+.experience-item {
+
+    display: grid;
+
+    grid-template-columns:
+        180px
+        minmax(0, 1fr);
+
+    gap: 60px;
+
+    padding: 45px 0;
+
+    border-bottom:
+        1px solid #dbe2ea;
+
+}
+
+
+.experience-date {
+
+    padding-top: 5px;
+
+    color: #94a3b8;
+
+    font-size: 0.7rem;
+
+    font-weight: 600;
+
+    letter-spacing: 0.08em;
+
+}
+
+
+.experience-main {
+
+    max-width: 850px;
+
+}
+
+
+.experience-main h3 {
+
+    margin: 0;
+
+    color: #07111f;
+
+    font-size: 1.5rem;
+
+    letter-spacing: -0.02em;
+
+}
+
+
+.experience-main > span {
+
+    display: block;
+
+    margin-top: 7px;
+
+    color: #2563eb;
+
+    font-size: 0.75rem;
+
+    font-weight: 500;
+
+}
+
+
+.experience-main p {
+
+    max-width: 720px;
+
+    margin: 18px 0 0;
+
+    color: #64748b;
+
+    font-size: 0.9rem;
+
+    line-height: 1.75;
+
+}
+
+
+/* ============================================================
+   EDUCATION
+============================================================ */
+
+.about-education {
+
+    padding: 110px 0;
+
+    background: #07111f;
+
+    color: #ffffff;
+
+}
+
+
+.about-education-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        1fr
+        1fr;
+
+    gap: 100px;
+
+    align-items: start;
+
+}
+
+
+.about-education h2 {
+
+    max-width: 600px;
+
+    margin: 0;
+
+    color: #ffffff;
+
+    font-size:
+        clamp(
+            2.6rem,
+            4vw,
+            4.3rem
+        );
+
+    line-height: 0.98;
+
+    letter-spacing: -0.05em;
+
+}
+
+
+.about-education-grid > div:last-child {
+
+    display: flex;
+
+    flex-direction: column;
+
+    padding-top: 10px;
+
+}
+
+
+.about-education h3 {
+
+    margin: 0;
+
+    color: #ffffff;
+
+    font-size: 1.35rem;
+
+}
+
+
+.about-education p {
+
+    margin: 8px 0 28px;
+
+    color:
+        rgba(
+            255,
+            255,
+            255,
+            0.48
+        );
+
+    font-size: 0.85rem;
+
+}
+
+
+.about-education strong {
+
+    color:
+        rgba(
+            255,
+            255,
+            255,
+            0.82
+        );
+
+    font-size: 0.9rem;
+
+    font-weight: 500;
+
+}
+
+
+.about-education-grid > div:last-child > span {
+
+    margin-top: 7px;
+
+    color: #60a5fa;
+
+    font-size: 0.75rem;
+
+}
+
+
+.about-education time {
+
+    margin-top: 25px;
+
+    color:
+        rgba(
+            255,
+            255,
+            255,
+            0.35
+        );
+
+    font-size: 0.7rem;
+
+    letter-spacing: 0.08em;
+
+}
+
+
+/* ============================================================
+   CTA
+============================================================ */
+
+.about-cta {
+
+    padding: 140px 0;
+
+    background: #0d1b2e;
+
+    color: #ffffff;
+
+}
+
+
+.about-cta .section-container {
+
+    max-width: 900px;
+
+}
+
+
+.about-cta .section-eyebrow {
+
+    color: #60a5fa;
+
+}
+
+
+.about-cta h2 {
+
+    margin: 0;
+
+    color: #ffffff;
+
+    font-size:
+        clamp(
+            3rem,
+            5vw,
+            5.2rem
+        );
+
+    line-height: 0.97;
+
+    letter-spacing: -0.055em;
+
+}
+
+
+.about-cta p {
+
+    max-width: 600px;
+
+    margin: 28px 0 38px;
+
+    color:
+        rgba(
+            255,
+            255,
+            255,
+            0.55
+        );
+
+    font-size: 1rem;
+
+    line-height: 1.75;
+
+}
+
+
+/* ============================================================
+   TABLET
+============================================================ */
+
+@media (max-width: 1000px) {
+
+    .about-hero-grid {
+
+        gap: 60px;
+
+    }
+
+
+    .about-story-grid {
+
+        grid-template-columns:
+            90px
+            minmax(0, 1fr);
+
+        gap: 50px;
+
+    }
+
+
+    .about-principles-grid {
+
+        grid-template-columns:
+            repeat(
+                2,
+                1fr
+            );
+
+    }
+
+
+    .about-education-grid {
+
+        gap: 60px;
+
+    }
+
+}
+
+
+/* ============================================================
+   MOBILE
+============================================================ */
+
+@media (max-width: 767.98px) {
+
+    .about-hero {
+
+        padding:
+            120px 0
+            80px;
+
+    }
+
+
+    .about-hero-grid {
+
+        grid-template-columns: 1fr;
+
+        gap: 60px;
+
+    }
+
+
+    .about-hero-image {
+
+        width: min(
+            100%,
+            420px
+        );
+
+        justify-self: start;
+
+    }
+
+
+    .about-story {
+
+        padding: 90px 0;
+
+    }
+
+
+    .about-story-grid {
+
+        grid-template-columns: 1fr;
+
+        gap: 30px;
+
+    }
+
+
+    .about-story-label {
+
+        min-height: auto;
+
+        gap: 12px;
+
+    }
+
+
+    .about-story-number {
+
+        display: none;
+
+    }
+
+
+    .about-story-content .about-lead {
+
+        font-size: 1.05rem;
+
+    }
+
+
+    .about-principles {
+
+        padding: 90px 0;
+
+    }
+
+
+    .about-principles-header {
+
+        margin-bottom: 50px;
+
+    }
+
+
+    .about-principles-grid {
+
+        grid-template-columns: 1fr;
+
+    }
+
+
+    .about-principles-grid article {
+
+        min-height: auto;
+
+    }
+
+
+    .about-principles-grid article > span {
+
+        margin-bottom: 40px;
+
+    }
+
+
+    .about-experience {
+
+        padding: 90px 0;
+
+    }
+
+
+    .experience-item {
+
+        grid-template-columns: 1fr;
+
+        gap: 15px;
+
+        padding: 35px 0;
+
+    }
+
+
+    .about-education {
+
+        padding: 90px 0;
+
+    }
+
+
+    .about-education-grid {
+
+        grid-template-columns: 1fr;
+
+        gap: 50px;
+
+    }
+
+
+    .about-cta {
+
+        padding: 100px 0;
+
+    }
+
+}
+
+
+/* ============================================================
+   SMALL MOBILE
+============================================================ */
+
+@media (max-width: 480px) {
+
+    .about-hero {
+
+        padding:
+            110px 0
+            70px;
+
+    }
+
+
+    .about-hero-image::before {
+
+        top: 15px;
+
+        left: 15px;
+
+    }
+
+
+    .about-story {
+
+        padding: 75px 0;
+
+    }
+
+
+    .about-principles-grid article {
+
+        padding: 30px;
+
+    }
+
+
+    .about-experience {
+
+        padding: 75px 0;
+
+    }
+
+
+    .about-education {
+
+        padding: 75px 0;
+
+    }
+
+}
